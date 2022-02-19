@@ -6,70 +6,142 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Poemario</title>
         <style type="text/css">
-            
-            body{
-                background: rgb(238,174,202);
-                background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(198,180,216,1) 46%, rgba(148,187,233,1) 100%);
-            }
+              @media screen and (min-width: 1300px) {
+    
 
-            main{text-align: center;}
+    body{
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(198,180,216,1) 46%, rgba(148,187,233,1) 100%);
+    }
 
-            header{text-align: center;
-            margin: -1%;}
+    main{text-align: center;}
 
-            footer{text-align: right;}
+    header{text-align: center;
+    margin: -1%;}
 
-            h1{
-                font-size: 40px;
-                font-family:Verdana, Geneva, Tahoma, sans-serif;
-            }
-            li{
-                font-size: 20px;
-                font-family:Verdana, Geneva, Tahoma, sans-serif;
-            }
-            footer{
-                font-weight: lighter;
-                font-size: large;
-            }
-            article {
-                border: rgb(255, 255, 255) 5px solid;
-                border-top-left-radius: 30px;
-                border-bottom-right-radius: 30px;
-                border-top-right-radius: 30px;
-                border-bottom-left-radius: 30px;
-                width: 60%;
-                height: 100%;
-                margin:2% 19.75%;
-            }
-            details {
-                position: fixed;
-                border: 1px solid black;
-                border-radius: 4px;
-                padding: .5em .5em 0;
-            }
-            
-            summary {
-                font-weight: bold;
-                margin: -.5em -.5em 0;
-                padding: .5em;
-            }
-            
-            details[open] {
-                padding: 1em;
-            }
-            
-            details[open] summary {
-                border-bottom: 1px solid black;
-                margin-bottom: .5em;
-            }
+    footer{text-align: right;}
 
-            nav ul li{
-                font-size: 15px;
-                font-family:Verdana, Geneva, Tahoma, sans-serif;
-            }
-            a, a::after, a:link{text-decoration: none;
-            color: black;}
-            
+    h1{
+        font-size: 40px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    li{
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    footer{
+        font-weight: lighter;
+        font-size: large;
+    }
+    article {
+        border: rgb(255, 255, 255) 5px solid;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        width: 60%;
+        height: 100%;
+        margin:2% 19.75%;
+    }
+    details {
+        position: fixed;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: .5em .5em 0;
+    }
+    
+    summary {
+        font-weight: bold;
+        margin: -.5em -.5em 0;
+        padding: .5em;
+    }
+    
+    details[open] {
+        padding: 1em;
+    }
+    
+    details[open] summary {
+        border-bottom: 1px solid black;
+        margin-bottom: .5em;
+    }
+
+    nav ul li{
+        font-size: 15px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a, a::after, a:link{text-decoration: none;
+    color: black;}
+    
+    
+    
+    }
+
+@media screen and (max-width: 1300px) {
+body{
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(198,180,216,1) 46%, rgba(148,187,233,1) 100%);
+}
+
+main{text-align: center;}
+
+header{text-align: center;
+margin: -1%;}
+
+footer{text-align: right;}
+
+h1{
+font-size: 40px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+font-size: 20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+font-weight: lighter;
+font-size: large;
+}
+article {
+border: rgb(255, 255, 255) 5px solid;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+width: 60%;
+height: 100%;
+margin:2% 19.75%;
+}
+details {
+position: inherit;
+border: 1px solid black;
+border-radius: 4px;
+padding: .5em .5em 0;
+text-align: center;
+width: 30%;
+margin-left: 33%;
+}
+
+summary {
+font-weight: bold;
+margin: -.5em -.5em 0;
+padding: .5em;
+}
+
+details[open] {
+padding: 1em;
+}
+
+details[open] summary {
+border-bottom: 1px solid black;
+margin-bottom: .5em;
+}
+
+nav ul li{
+font-size: 15px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a, a::after, a:link{text-decoration: none;
+color: black;}
         </style>
     </head>
     <body>
